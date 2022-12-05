@@ -275,6 +275,7 @@ li.social-icon {
 .card-tags {
   display: flex;
   gap: 8px;
+  float: left;
 }
 
 .card-tags > * {
