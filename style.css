@@ -7,7 +7,7 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -457,8 +457,9 @@ li.social-icon {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #EBEBFF;
+  color: #ebebff;
   text-align: center;
+
   /* padding-right: 54px ; */
   margin-bottom: 3.2rem;
 }
@@ -501,4 +502,3 @@ textarea::placeholder {
   font-family: "Poppins", sans-serif;
   color: #b3bac5;
 }
-
