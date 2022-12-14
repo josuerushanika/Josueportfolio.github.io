@@ -7,6 +7,7 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
+  box-sizing:border-box;
 }
 
 body {
@@ -431,6 +432,7 @@ li.social-icon {
   align-content: center;
   background-color: #6070ff;
   background-image: url(/images/contact-graph-2.png), url(/images/contact-graph-1.png), url(/images/contact-circle-1.png);
+  /* background-image: url(/images/header-shapesmobile.png); */
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: 95px, 100px, 28px;
   background-position: 77% 95%, 110% 3%, 40% 10%;
