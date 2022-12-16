@@ -25,7 +25,7 @@ nav {
 
 nav h1 a {
   font-family: 'Poppins', sans-serif;
-  color: blue;
+  color: #6070FF;
   text-decoration: none;
   font-style: bold;
   font-size: 18px;
@@ -585,7 +585,7 @@ textarea::placeholder {
   }
 
   .content {
-    background-image: url(./images/DesktopContactFormBg.svg);
+    background-image: url(./images/HeaderD.png);
     background-position: right;
     background-size: contain;
     display: flex;
@@ -607,7 +607,8 @@ textarea::placeholder {
     margin-top: 0;
     margin-bottom: 0;
     height: fit-content;
-    left: 260px;
+    display: flex;
+    align-items: flex-start;
   }
 
   .card {
@@ -698,6 +699,8 @@ textarea::placeholder {
     width: 92%;
     font-size: 14px;
     height: fit-content;
+    display: flex;
+    align-items: flex-start;
   }
 
   .intro2 {
