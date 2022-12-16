@@ -347,6 +347,8 @@ li.social-icon {
 /* Skill Section */
 .skill-section {
   width: 100%;
+  margin-top: 24px;
+  gap: 12px;
 }
 
 .skill-dropdown-container {
@@ -363,9 +365,20 @@ li.social-icon {
 }
 
 .skill-title {
-  font-size: 20px;
+  /* font-size: 20px;
   font-weight: 500;
+  color: #344563;
+  margin-top: 50px;
+  align-items: flex-end; */
+
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
   color: #000;
+  font-weight: 500;
+  width: 100%;
+  padding: 24px 42px 36px 0;
+  margin-top: 24px;
 }
 
 .arrow-button {
@@ -484,6 +497,14 @@ textarea::placeholder {
   color: #b3bac5;
 }
 
+.lang-list {
+  align-items: center;
+  padding: 24px;
+  gap: 12px;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
 @media (min-width: 768px) {
   .nav {
     margin-right: 7.75rem;
@@ -513,14 +534,34 @@ textarea::placeholder {
   }
 
   .skill-section ul {
-    display: flex;
+    /* display: flex;  1*/
     padding-left: 20px;
   }
 
   .skill-section ul li {
-    flex-direction: column;
+    /* flex-direction: column;2*/
     height: 100px;
-    margin-right: 12px;
+    /* margin-right: 12px;3*/
+  }
+
+  .skill-dropdown-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 12px;
+  }
+  
+  .skill-dropdown-content li {
+    height: 120px;
+    width: 122px;
+    background-color: #f7f7f9;
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    text-align: center;
   }
 
   .nav li:enabled {
@@ -580,7 +621,7 @@ textarea::placeholder {
     margin-right: 8.875rem;
   }
 
-  .works-section > :nth-child(2) {
+  .works-section > :nth-child(2n) {
     flex-direction: row-reverse;
   }
 
