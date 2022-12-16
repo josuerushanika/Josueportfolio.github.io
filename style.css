@@ -352,7 +352,7 @@ li.social-icon {
 .skill-dropdown-container {
   height: 72px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 0 18px;
@@ -442,8 +442,6 @@ li.social-icon {
   line-height: 28px;
   color: #ebebff;
   text-align: center;
-
-  /* padding-right: 54px ; */
   margin-bottom: 3.2rem;
 }
 
@@ -484,4 +482,229 @@ li.social-icon {
 textarea::placeholder {
   font-family: "Poppins", sans-serif;
   color: #b3bac5;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    margin-right: 7.75rem;
+  }
+
+  .nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 1rem 0 1rem;
+    width: 16.188rem;
+    margin-right: 8.75rem;
+  }
+
+  .nav li {
+    font-family: "poppins", sans-serif;
+    color: #334563;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 0 0.75rem;
+  }
+
+  .hamburger {
+    /* color: red; */
+    visibility: hidden;
+  }
+
+  .skill-section ul {
+    display: flex;
+    padding-left: 20px;
+  }
+
+  .skill-section ul li {
+    flex-direction: column;
+    height: 100px;
+    margin-right: 12px;
+  }
+
+  .nav li:enabled {
+    color: #6070ff;
+    background: #fff;
+  }
+
+  .nav li:hover {
+    color: #fff;
+    background: #6070ff;
+  }
+
+  .nav li:active {
+    color: #fff;
+    background: #2230d2;
+  }
+
+  .nav li:disabled {
+    color: #5e6c84;
+    background: #fff;
+  }
+
+  .content {
+    background-image: url(./images/DesktopContactFormBg.svg);
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+  }
+
+  .sec-br {
+    display: none;
+  }
+
+  .content div {
+    width: 65%;
+  }
+
+  .intro {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: fit-content;
+    left: 260px;
+  }
+
+  .card {
+    display: flex;
+    height: fit-content;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 8.875rem;
+    margin-right: 8.875rem;
+  }
+
+  .works-section > :nth-child(2) {
+    flex-direction: row-reverse;
+  }
+
+  .card > * {
+    width: 50%;
+    height: 20.813rem;
+    padding-left: 1rem;
+  }
+
+  .card-description {
+    font-weight: 400;
+    font-size: 13px;
+    width: 95%;
+    height: fit-content;
+    margin: 0;
+  }
+
+  .card-info {
+    height: fit-content;
+  }
+
+  .card-image {
+    /* width: 50%; */
+    height: 100%;
+  }
+
+  .primary-button {
+    flex: none;
+    margin-top: 0;
+  }
+
+  .card-tags {
+    display: flex;
+  }
+
+  .card-title {
+    /* margin-top: 5px; */
+    margin-bottom: 0;
+  }
+
+  .card-title br {
+    display: none;
+  }
+
+  .about-me-section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    height: 450px;
+  }
+
+  .skill-section {
+    width: 45%;
+    padding-right: 0;
+  }
+
+  .arrow-button {
+    margin-right: 0;
+  }
+
+  .skill-dropdown-container {
+    width: 94%;
+  }
+
+  .about-me-section h2 br {
+    display: inline;
+  }
+
+  .about-me-container {
+    width: 40%;
+  }
+
+  .intro1 {
+    width: 92%;
+    font-size: 14px;
+    height: fit-content;
+  }
+
+  .intro2 {
+    margin-top: 2px;
+  }
+
+  .contact-content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: contain;
+    background-image: url(./assets/DesktopContactFormBg.svg);
+  }
+
+  .contact-content div {
+    width: 40%;
+  }
+
+  .contact-content p {
+    font-size: 14px;
+  }
+
+  .contact-content input,
+  textarea {
+    /* width: 73%; */
+    margin-left: 11%;
+    border-radius: 0;
+    font-size: 14px;
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .contact-content textarea {
+    font-size: 14px;
+    padding: 0.5rem;
+    border-radius: 0;
+  }
+
+  .contact-content button {
+    margin-left: 35%;
+    font-size: 14px;
+  }
+
+  .contact-content h1 {
+    margin-top: 0;
+  }
+
+  .social-icon {
+    font-size: 24px;
+  }
 }
