@@ -369,12 +369,6 @@ li.social-icon {
 }
 
 .skill-title {
-  /* font-size: 20px;
-  font-weight: 500;
-  color: #344563;
-  margin-top: 50px;
-  align-items: flex-end; */
-
   justify-content: space-between;
   font-size: 20px;
   align-items: center;
@@ -407,15 +401,6 @@ li.social-icon {
   padding: 12px 32px;
   gap: 12px;
 }
-
-/* .skill-dropdown-content li {
-  height: 66px;
-  background-color: #f7f7f9;
-  width: 100%;
-  padding: 8px 16px;
-  display: flex;
-  border-radius: 8px;
-} */
 
 .skill-dropdown-content span {
   display: inline-block;
@@ -512,6 +497,7 @@ textarea::placeholder {
 @media (min-width: 768px) {
   .nav {
     margin-right: 7.75rem;
+    padding-top: 15px;
   }
 
   .nav ul {
@@ -533,29 +519,15 @@ textarea::placeholder {
   }
 
   .hamburger {
-    /* color: red; */
     visibility: hidden;
   }
 
   .skill-section ul {
-    /* display: flex;  1 */
     padding-left: 20px;
   }
 
-  /* .skill-dropdown-content li {
-    height: 66px;
-    background-color: #f7f7f9;
-    width: 100%;
-    padding: 8px 16px;
-    display: flex;
-    border-radius: 8px;
-  } */
-
   .skill-section ul li {
-    /* flex-direction: column;2 */
     height: 100px;
-
-    /* margin-right: 12px;3 */
   }
 
   .skill-dropdown-content {
@@ -566,17 +538,6 @@ textarea::placeholder {
     padding: 12px 32px;
     gap: 12px;
   }
-
-  /* .skill-dropdown-content li {
-    height: 120px;
-    width: 122px;
-    background-color: #f7f7f9;
-    padding: 8px 0;
-    display: flex;
-    flex-direction: column;
-    border-radius: 8px;
-    text-align: center;
-  } */
 
   .nav li:enabled {
     color: #6070ff;
@@ -605,7 +566,7 @@ textarea::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 650px;
+    height: 100vh;
   }
 
   .sec-br {
@@ -623,6 +584,7 @@ textarea::placeholder {
     height: fit-content;
     display: flex;
     align-items: flex-start;
+    margin-left: 22px;
   }
 
   .card {
@@ -659,7 +621,6 @@ textarea::placeholder {
   }
 
   .card-image {
-    /* width: 50%; */
     height: 100%;
   }
 
@@ -673,7 +634,6 @@ textarea::placeholder {
   }
 
   .card-title {
-    /* margin-top: 5px; */
     margin-bottom: 0;
   }
 
@@ -697,12 +657,24 @@ textarea::placeholder {
     margin-right: 0;
   }
 
-  .skill-dropdown-container {
-    width: 94%;
-  }
-
   .about-me-section h2 br {
     display: inline;
+  }
+
+  .skill-setion {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    height: 450px;
+  }
+
+  .skill-dropdown-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skill-dropdown-container h3 {
+    color: rgb(34, 34, 34);
   }
 
   .about-me-container {
@@ -715,10 +687,13 @@ textarea::placeholder {
     height: fit-content;
     display: flex;
     align-items: flex-start;
+    margin-left: 5px;
   }
 
   .intro2 {
     margin-top: 2px;
+    margin-left: 0;
+    margin-bottom: 12px;
   }
 
   .contact-content {
@@ -764,5 +739,14 @@ textarea::placeholder {
 
   .social-icon {
     font-size: 24px;
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-position: right;
+    background-size: contain;
   }
 }
