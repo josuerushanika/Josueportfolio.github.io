@@ -1,5 +1,5 @@
-# Portfolio-finish-mobile-version
-# Portfolio: finish mobile version
+
+# Portfolio: Josueportfolio
 
 
 
@@ -7,7 +7,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio:finish mobile version</b></h3>
+  <h3><b>Josueportfolio</b></h3>
 
 </div>
 
@@ -16,7 +16,7 @@
 
 Getting Started
 Cloning the project
-Git clone git@github.com:josuerushanika/Portfolio-finish-mobile-version.git
+Git clone git@github.com:josuerushanika/Josueportfolio.github.io.git
 To get a local copy up and running follow these simple example steps.
 
 Prerequisites
@@ -99,7 +99,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone git@github.com:josuerushanika/Portfolio-finish-mobile-version.git
+  git clone git@github.com:josuerushanika/Josueportfolio.github.io.git
 ```
 
 
@@ -116,6 +116,11 @@ Clone this repository to your desired folder:
 - Twitter: [@twitterhandle](https://twitter.com/josuerushanika)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/josue-rushanika-336049b3/)
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://josuerushanika.github.io/Josueportfolio.github.io/)
 
 
 <!-- CONTRIBUTING -->
